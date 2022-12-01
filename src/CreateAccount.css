@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:'Inter';
+}
+.Container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.fluid{
+    width: 1140px;
+    margin: auto;
+}
+.user-input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+.user-input ::placeholder{
+    color: #7C7C7C;
+    padding: 5px;
+  
+}
+
+.user-input input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+
+.Submit-red{
+    width: 100px;
+    height: 40px; 
+    margin-top: 80px;
+   background-color:#FF6060 ; 
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 29px;
+   color: #FFFFFF;
+   border: none;
+}

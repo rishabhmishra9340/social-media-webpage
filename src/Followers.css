@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-followers{
+    width: 100%;
+
+}
+.container-followers h3{
+    text-align: center;
+}
+.cards{
+    width: 150px;
+    height: 25px;
+    background-color: #FFFFFF;
+}
+.cards .image{
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  
+}
+.cards .image img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+.followers-fluid{
+    background-color:#D9D9D9 ;
+    width: 840px;
+    height: 150px;
+    margin: auto;
+}
